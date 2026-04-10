@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday 💖</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    text-align: center;
+    color: white;
+}
+
+.container {
+    padding: 40px;
+}
+
+img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 5px solid white;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 18px;
+    max-width: 500px;
+    margin: auto;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background: white;
+    color: #ff4b5c;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>Happy Birthday Afiya🎉</h1>
+
+    <img src="IMG-20260406-WA0037.jpg" alt="Her Photo">
+
+    <p>
+        You are one of the most special people in my life 💖  
+        Thank you for always being there for me.  
+        I hope your day is filled with happiness and love ✨  
+    </p>
+
+    <button onclick="showMessage()">Click Me 💌</button>
+</div>
+
+<script>
+function showMessage() {
+    alert("I’m really lucky to have you 💖 Happy Birthday!");
+}
+</script>
+
+</body>
+</html>
